@@ -1,5 +1,5 @@
 from alongside import Alongside, OnRange, catted
-from unreliable_connection import UnreliableConnection, UnreliableConnectionDummy
+from src.unreliable_connection import UnreliableConnection, UnreliableConnectionDummy
 import torch 
 from torch import Tensor, nn
 from torch.nn import Module, Sequential, Identity
